@@ -2,7 +2,7 @@
 
 # Author: Arpit Patni
 # Roll No: 2501730111
-# Date: 16/11/2025
+# Date: 18/11/2025
 # Purpose: Downloads a file using wget and saves it to ~/downloads
 
 url="$1"                            # Takes URL as input
