@@ -2,7 +2,7 @@
 
 # Author: Arpit Patni
 # Roll No: 2501730111
-# Date: 16/11/2025
+# Date: 18/11/2025
 # Purpose: Creates a backup of a given directory and stores it in ~/backups
 
 source_dir="$1"                     # Takes directory name from the user
