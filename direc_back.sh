@@ -8,10 +8,10 @@
 source_dir="$1"                     # Takes directory name from the user
 backup_dir="$HOME/backups"          # Location where backups will be stored
 
-mkdir -p "$backup_dir"              # Creates the backup directory if it doesn't exist
+mkdir -p "$direc_back.sh"              # Creates the backup directory if it doesn't exist
 
 timestamp=$(date +%Y-%m-%d_%H-%M-%S)      # Generates timestamp
-dest="$backup_dir/backup_$timestamp"      # Defines backup destination folder
+dest="$direc_back.sh/backup_$timestamp"      # Defines backup destination folder
 
 cp -r "$source_dir" "$dest"         # Recursively copies files to destination
 
