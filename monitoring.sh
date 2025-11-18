@@ -2,7 +2,7 @@
 
 # Author: Arpit Patni
 # Roll No: 2501730111
-# Date: 16/11/2025
+# Date: 18/11/2025
 # Purpose: Logs CPU and memory usage using the 'top' command into system_usage.log
 
 logfile="$HOME/system_usage.log"   # Creates a log file in home directory
